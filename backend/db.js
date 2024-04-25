@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const validator=require("validator");
 
 
-mongoose.connect("mongodb+srv://prasadbodke5102:Prasad5102@cluster0.rlzznwl.mongodb.net/mernproject");
+mongoose.connect("mongodbURL");
 
 const userschema=new mongoose.Schema({
     name :{
